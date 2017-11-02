@@ -1,31 +1,38 @@
-<title>Bootcamp</title>
-<body>
-    <h1>YUMMY RECIPES</h1>
+<html>
+    <head>
+        <title>Bootcamp</title>
+        <link rel = 'stylesheet' href = 'recipes.css'>
+    </head>
+    <body class = 'body'>
 
-    <div>
-        <form>
-           <table>
-               <tr>
-                   <td>Name <input type = 'text'></td>>
-                   <td>Password <input type = 'password'></td>
-               </tr>
-           </table>
-           <button type = 'submit'>Login</button>
-        </form>
-    </div>
-    <div>
-        <form>
+        <div class = 'container'>
             <div>
-                <h> SIGN UP</h>
-            </div>
-            <div>
-                    <table>
-                            <tr><td> Name </td><td><input type = 'text'></td></tr>
-                            <tr><td>Email</td><td><input type = 'text'></td></tr>
-                            <tr><td>Password </td><td><input type = 'password'></td>></tr>
+                <form class = 'login'>
+                        <table>
+                            <tr>
+                                <td>Name <input type = 'text'></td>>
+                                <td>Password <input type = 'password'></td>
+                            </tr>
                         </table>
-                        <button type = 'submit'>Create Account</button>
+                        <button type = 'submit'>Login</button>
+                </form>
             </div>
-        </form>
-    </div>
-</body>
+                <div>
+                    <form class = 'signup'>
+                                          
+                            
+                        <div class = 'register'>
+                            <h3 class = 'sign'> SIGN UP</h3>
+                            <table>
+                                <tr><td> Name </td><td><input type = 'text'></td></tr>
+                                <tr><td>Email</td><td><input type = 'text'></td></tr>
+                                <tr><td>Password </td><td><input type = 'password'></td>></tr>
+                            </table>
+                            <button type = 'submit'>Create Account</button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+        
+    </body>
+</html>
